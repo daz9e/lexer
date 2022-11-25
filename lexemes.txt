@@ -1,0 +1,8 @@
++, arithmetic
+-, arithmetic
+*, arithmetic
+/, arithmetic
+%, arithmetic
+++, increment
+--, Decrement
+for, Its for man wtf
