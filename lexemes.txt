@@ -1,8 +1,14 @@
+++, increment
+--, decrement
+!=, assignment
+<<, cout
+>>, cin
+<, relational
+=, assignment
 +, arithmetic
 -, arithmetic
 *, arithmetic
 /, arithmetic
 %, arithmetic
-++, increment
---, Decrement
-for, Its for man wtf
+=, assignment
+for, for

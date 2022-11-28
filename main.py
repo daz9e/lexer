@@ -2,6 +2,7 @@
 inputfile = open("sample.txt", "r")
 output = open("output.txt", "w")
 lexefile = open("lexemes.txt", "r")
+outputlist = open("outputlist.txt", "w")
 
 inputt = inputfile.readlines()
 # массив для самих лексем
@@ -15,12 +16,22 @@ for line in lexlines:
     lexopers.append(splex[1])
 for line in inputt:
     # проверка на остальные лексемы
-
-    for
     elms = line.split(" ")
+    tp = 0
     for elm in elms:
         if elm != "":
-            print(elm)
+            outputlist.write(elm + "\n")
+            temp = 0
+            for lex in lexemes:
+                if lex in elm:
+                    if lex == "for":
+                        print("for найлден")
+                    output.write(elm + " - " + lexopers[temp] + "\n")
+                    break
+                temp += 1
+        tp += 1
 # закрываем файл
 inputfile.close()
 output.close()
+lexefile.close()
+outputlist.close()

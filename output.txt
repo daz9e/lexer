@@ -1,0 +1,20 @@
+for - for
+
+= - assignment
+
+< - relational
+
+i++ - increment
+
+<< - cout
+
+for - for
+
+!= - assignment
+
+< - relational
+
+i-- - decrement
+
+>> - cin
+
